@@ -26,9 +26,32 @@
     ]
   },
   "dependencies": {
+    "@mantine/carousel": "^7.12.1",
+    "@mantine/charts": "^7.12.1",
+    "@mantine/code-highlight": "^7.12.1",
+    "@mantine/core": "^7.12.1",
+    "@mantine/dates": "^7.12.1",
+    "@mantine/dropzone": "^7.12.1",
+    "@mantine/form": "^7.12.1",
+    "@mantine/hooks": "^7.12.1",
+    "@mantine/modals": "^7.12.1",
+    "@mantine/notifications": "^7.12.1",
+    "@mantine/nprogress": "^7.12.1",
+    "@mantine/spotlight": "^7.12.1",
+    "@mantine/tiptap": "^7.12.1",
+    "@tabler/icons-react": "^3.12.0",
+    "@tiptap/extension-link": "^2.5.9",
+    "@tiptap/react": "^2.5.9",
+    "@tiptap/starter-kit": "^2.5.9",
+    "clsx": "^2.1.1",
+    "dayjs": "^1.11.12",
+    "embla-carousel-react": "^8.1.8",
+    "framer-motion": "^11.3.24",
     "next": "14.2.3",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "recharts": "2",
+    "tailwind-merge": "^2.5.2"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^14.2.3",

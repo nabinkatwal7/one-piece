@@ -14,7 +14,7 @@ export async function fetchData<T>(url: string): Promise<T> {
   return data;
 }
 
-export async function fetchById<T>(url: string, id: string): Promise<T> {
+export async function fetchById<T>(url: string, id: any): Promise<T> {
   const apiUrl = process.env.NEXT_PUBLIC_BASE_URL;
   const res = await fetch(`${apiUrl}/${url}/${id}`, {
     next: {

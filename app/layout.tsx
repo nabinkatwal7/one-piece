@@ -3,6 +3,10 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 import Navbar from '@/components/layout/Navbar';
 
+import '@mantine/core/styles.css';
+
+import { MantineProvider } from '@mantine/core';
+
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
@@ -18,8 +22,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} relative`}>
-        <Navbar />
-        {children}
+        <MantineProvider>
+          <Navbar />
+          <div className="p-4">{children}</div>
+        </MantineProvider>
       </body>
     </html>
   );
